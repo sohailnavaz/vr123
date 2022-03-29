@@ -1,0 +1,35 @@
+.texb h1{
+ font-size: 48px    ;
+}
+.texb p{
+    font-size: 14px;
+}
+    
+.texb{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5rem;
+
+}
+
+.text2{
+    margin-top: 5rem;
+    width: 60%;
+}
+.texb img{
+    width: 40rem;
+    height: auto;
+}
+.diim img{
+    border-bottom: 1px solid #000;
+}
+.tet2{
+    width: 90%;
+    margin: rem;
+}
+
+.tam img{
+    width: 60rem;
+    height: auto;
+}

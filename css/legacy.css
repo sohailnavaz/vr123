@@ -1,0 +1,44 @@
+.t231 {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-top: 1px solid #000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #000;
+
+}
+
+.r213 p {
+    font-weight: 200;
+    padding: 0px;
+}
+
+.r213 {
+    padding-top: 10rem;
+}
+
+.collage {
+    margin-top: 5rem;
+}
+
+.crd {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+
+.crd1 img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 2rem;
+
+}
+

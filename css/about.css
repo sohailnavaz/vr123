@@ -1,0 +1,60 @@
+.marg3{
+    margin: 5rem;
+    margin-top: 10rem;
+}
+
+.two3{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.tow3t{
+    margin: 2rem;
+    width: 70%;
+    padding-top: 10%;
+    
+}
+.tow3t p{
+
+    font-size: smaller;
+    text-align: justify;
+}
+.two33{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.t3p{
+    padding: 2rem;
+}
+.br1{
+    border-right: 1px solid #000 ;
+
+}
+.two21{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid #000;
+    border-top: 1PX solid #000;
+    margin-top: 2rem;
+}
+.t21t{
+    margin: 2rem;
+   
+}
+.t21t p{
+    font-size: smaller;
+}
+.t2r3{
+    margin-top: 2rem;
+}
+
+.ml1{
+    width: 50%;
+}
+
+.ml5{
+    margin-left: 30rem;
+}
+.ml1 p{
+    font-weight: 200;
+}

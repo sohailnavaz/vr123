@@ -1,0 +1,24 @@
+.twocol{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#grad1 {
+    height: 20px;
+    background-image: linear-gradient(90deg ,rgb(19, 224, 224), rgb(204, 204, 204));
+  }
+
+
+  .fe1{
+    display: flex;
+    align-items: stretch;
+  }
+  .two2{
+      display: grid;
+      grid-template-columns: auto auto;
+        
+    }
+    .dif3{
+        margin-left: 1rem;
+        padding: 2rem;
+    }
