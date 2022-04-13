@@ -10,12 +10,13 @@
 .tow3t{
     margin: 2rem;
     width: 70%;
-    padding-top: 10%;
-    
+    padding-top: 2%;
+
+}
+.two3 img{
+    width: 50vw;
 }
 .tow3t p{
-
-    font-size: smaller;
     text-align: justify;
 }
 .two33{

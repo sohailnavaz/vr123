@@ -89,16 +89,17 @@ body a:hover {
 .twotxt {
     display: grid;
     grid-template-columns: 40vw auto;
-    margin-top: 15rem;
-    margin-bottom: 2rem;
+    margin-top: 25rem;
+    margin-bottom: 5rem;
 }
 
 .txt1 {
     padding-top: 1rem;
+    margin-top: 20rem;
 }
 
 .txt1 p {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .txt1 h1 {

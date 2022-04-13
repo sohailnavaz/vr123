@@ -24,15 +24,21 @@
 
         <div class="two3">
             <div class="tow3t">
-                <h1>The Goyal Promise</h1>
-                <p>Real estate industry is a demanding one, and to be one of the best, constantly evolving is integral.
-                    Thus, we, at Goyal & Co., have embraced change to remain at the forefront. Our entire company stands
-                    strong on the foundation of perseverance, innovation and transparency. What started out in
-                    Ahmedabad,
-                    Gujarat is now spread across multiple metro cities like Mumbai and Bangalore.</p>
+                <h1>ABOUT VERIDIAN</h1>
+                <p>Founded in Bangalore, Veridian Realty Private Limited is a leading multi-disciplinary property
+                    services provider, having experience & expertise extend across the globe.
+                    <br>
+                    Veridian Realty offers a wide range of services to clients across all asset classes in commercial,
+                    residential, and industrial real estate throughout the real estate lifecycle.
+                    <br>
+                    It operates residential sales, marketing and leasing under the brand name
+                    <strong>
+                        'A2Z Real Estate'
+                    </strong>
+                </p>
             </div>
             <div>
-                <img src="./assets/goyal-promise.jpg" alt="">
+                <img src="./assets/1212212.png" alt="">
             </div>
             <hr>
         </div>
@@ -129,17 +135,20 @@
             <br>
             <div class="ml1">
                 <h2>Trilok Goyal</h2>
-                <p>A science graduate from Gujarat University, Trilok Goyal oversees the real estate development activities
-                    of the group in Ahmedabad. He plays a key role in the planning and implementation stages of all aspects
+                <p>A science graduate from Gujarat University, Trilok Goyal oversees the real estate development
+                    activities
+                    of the group in Ahmedabad. He plays a key role in the planning and implementation stages of all
+                    aspects
                     of our projects.</p>
 
             </div>
             <hr>
             <br>
             <div class="ml1 ml5">
-                <h2 >Shivshankar Goyal</h2>
+                <h2>Shivshankar Goyal</h2>
                 <p>A commerce graduate from Gujarat University, Shivshankar Goyal chiefly looks after the marketing and
-                    sales of the company's various schemes and projects. As an instrumental part of the company's success
+                    sales of the company's various schemes and projects. As an instrumental part of the company's
+                    success
                     he’s helped maintain and develop strong bonds across the board with partners and clients alike.</p>
 
             </div>
@@ -149,7 +158,8 @@
 
                 <h2>Sandip Goyal</h2>
                 <p>A Civil Engineer from Karnataka University, Sandip Goyal is largely responsible for looking after the
-                    construction activities from start to end of all projects of the company. He ensures that we follow the
+                    construction activities from start to end of all projects of the company. He ensures that we follow
+                    the
                     highest quality parameters.</p>
 
             </div>
@@ -167,39 +177,39 @@
     </section>
 
 
-     
+
     <!-- <header></header> -->
     <script>
         function includeHTML() {
-        var z, i, elmnt, file, xhttp;
-        /* Loop through a collection of all HTML elements: */
-        z = document.getElementsByTagName("*");
-        for (i = 0; i < z.length; i++) {
-            elmnt = z[i];
-            /*search for elements with a certain atrribute:*/
-            file = elmnt.getAttribute("w3-include-html");
-            if (file) {
-            /* Make an HTTP request using the attribute value as the file name: */
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-                if (this.readyState == 4) {
-                if (this.status == 200) {
-                    elmnt.innerHTML = this.responseText;
+            var z, i, elmnt, file, xhttp;
+            /* Loop through a collection of all HTML elements: */
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /* Make an HTTP request using the attribute value as the file name: */
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {
+                                elmnt.innerHTML = this.responseText;
+                            }
+                            if (this.status == 404) {
+                                elmnt.innerHTML = "Page not found.";
+                            }
+                            /* Remove the attribute, and call this function once more: */
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    };
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /* Exit the function: */
+                    return;
                 }
-                if (this.status == 404) {
-                    elmnt.innerHTML = "Page not found.";
-                }
-                /* Remove the attribute, and call this function once more: */
-                elmnt.removeAttribute("w3-include-html");
-                includeHTML();
-                }
-            };
-            xhttp.open("GET", file, true);
-            xhttp.send();
-            /* Exit the function: */
-            return;
             }
-        }
         }
     </script>
 
