@@ -40,7 +40,7 @@ body a:hover {
     background-color: rgb(74, 145, 151);
     color: white;
     padding: 2rem;
-    padding-left: 5rem;
+    padding-left: 2rem;
 }
 
 .threepice {
@@ -95,7 +95,7 @@ body a:hover {
 
 .txt1 {
     padding-top: 1rem;
-    margin-top: 20rem;
+    margin-top: 10rem;
 }
 
 .txt1 p {
@@ -201,3 +201,206 @@ body a:hover {
   .f1t2{
     margin: 0px;
   }
+
+  .utube iframe{
+    width: 860px;
+    height: 515px;
+  }
+
+
+
+  /* blogwidth  */
+
+  .bacon-blog-post img{
+    margin: 2rem;
+    width: 710px; 
+    margin: 0 auto;
+  }
+  .bacon-blog-post{
+    margin: 2rem;
+  }
+  .ckde{
+    width: 710px; margin: 0 auto;
+  }
+  /* mobile view */
+  @media only screen and (max-width: 600px) {
+    .twopice{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .utube iframe{
+      width: 330px;
+    height: 257px;   }
+
+    .secgreen{
+    margin-top: 5rem;
+    height: auto;
+    width: 100%;
+    background-color: rgb(74, 145, 151);
+    color: white;
+    padding: 2rem;
+  }
+  .secgreen h2  {
+    font-size: 24px;
+   
+  }
+
+  .threepice{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .bl{
+    border-right: none;
+    border-bottom: 2px solid white;;
+  }
+  .threepice h2{
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  .b9{
+    padding-left: 2rem;
+  }
+  .b0{
+    padding-left:  -2px;;
+  }
+  .b0 li{
+    font-size: 18px;
+  }
+  .twodi {
+    height: 50vh;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 1rem;
+}
+
+.twotxt{
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.two3 img{
+  display: none;
+}
+.two3{
+  display: grid;
+  grid-template-columns: auto;
+}
+.tow3t{
+  margin: 1rem;
+  width: 90%;
+}
+.marg3{
+  margin: 1rem;
+  margin-top: 5rem;
+}
+.two33{
+  display: grid;
+  grid-template-columns: auto;
+
+}
+.t3p{
+  padding: 1rem;
+}
+.br1{
+  border-right: none;
+}
+.two21{
+  display: grid;
+  grid-template-columns: auto;
+  border-bottom: 1px solid #000;
+  border-top: 1PX solid #000;
+  margin-top: 2rem;
+}
+.t21t{
+  margin: 1rem;
+ 
+}
+.t21im img{
+
+  width: 100%;
+}
+.t2r3{
+  text-align: justify;
+  font-size: small;
+}
+
+.ml1{
+  width: 100%;
+  margin: 1rem;
+
+}
+
+.ml5{
+  margin: 1rem;
+
+}
+.msa{
+  text-align: left;
+}
+
+.t231 {
+  display: grid;
+  grid-template-columns: auto;
+  padding-bottom: 2rem;
+
+}
+
+.t231 img{
+  display: none;
+}
+.r213 {
+  padding-top: 1rem;
+}
+.crd {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: auto ;
+}
+
+.posts-listing{
+ display: grid;
+ grid-template-columns: auto;
+ padding: 10px;
+}
+.post-item{
+  width: 100%;
+  margin: 5px;
+  
+}
+.bacon-blog-post img{
+  width: 310px;
+   margin: 0 auto;
+}
+.ckde{
+  width: 100%;
+   margin: 0 auto;
+}
+
+.texb{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+
+}
+.tam img {
+  width: 100%;
+}
+.diim img{
+  width: 100%;
+}
+
+.text2{
+  margin-top: 5rem;
+  width: 100%;
+
+}
+
+
+  }
+
+
+
+ 
